@@ -10,44 +10,63 @@
     <title>연아의 아카이브</title>
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
     <link rel="stylesheet" href="common/reset.css" type="text/css">
-    <link rel="stylesheet" href="common/css/main.css" type="text/css">
+    <link rel="stylesheet" href="common/main.css" type="text/css">
+    <script type="text/javascript" src="common/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="common/common.js"></script>
+    
+    <Script>
+      
+
+    </Script>
   </head>
   <body>
     <header>
-      <h1>김연아</h1>
-      <ul>
-        <li><a href="">archarive</a></li>
-        <li><a href="">about me</a></li>
-        <li><a href="">archarive</a></li>
-        <li><a href="">archarive</a></li>
-        <li><a href="">archarive</a></li>
-      </ul>
+      <h1 id="home">김연아</h1>
+      <div id="btn-gnb">
+        메뉴
+      </div>
+      <div id="gnb">
+        <!-- <div id="close-gnb">
+          <a href="#">&times;</a>
+        </div> -->
+        <ul>
+          <li><a href="">archarive</a></li>
+          <li><a href="">about me</a></li>
+          <li><a href="#portfolio-web">archarive</a></li>
+          <li><a href="#portfolio-image">archarive</a></li>
+          <li><a href="">archarive</a></li>
+        </ul> 
+      </div>
     </header>
+    <div id="main_Wrap">
+      <section id="intro">
+        Hello
+        welcome to my archaive
+      </section>
+
+      <section id="aboutme" class="paging">
+        Name Yona Kim
+        Web designer
+      </section>
+
+      <section id="portfolio-web" class="paging">
+        my web/mobile page works
+      </section>
+
+      <section id="portfolio-image" class="paging">
+        my image works by photoshop/illustrator
+      </section>
+
+      <section id="contact" class="paging">
+        contact me please
+        <!--footer -->
+        <footer>
+          Copyright 2022. 김연아. All right Reserved.
+        </footer>
+      </section>
+
+      </div>
     
-    <section class="intro">
-      Hello
-      welcome to my archaive
-    </section>
-
-    <section class="aboutme">
-      Name Yona Kim
-      Web designer
-    </section>
-
-    <section class="portfolio-web">
-      my web/mobile page works
-    </section>
-
-    <section class="portfolio-image">
-      my image works by photoshop/illustrator
-    </section>
-
-    <section class="contact">
-      contact me please
-    </section>
-    <!--footer -->
-    <footer>
-      Copyright 2022. 김연아. All right Reserved.
-    </footer>
+    
   </body>
 </html>

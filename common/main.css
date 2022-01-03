@@ -1,0 +1,66 @@
+section {
+  width:100%;
+  height:100%;
+}
+#intro {
+  background-color:aquamarine
+}
+#aboutme {
+  background-color: darkcyan;
+}
+#portfolio-web {
+  background-color:darksalmon ;
+}
+#portfolio-image {
+  background-color: peru;
+}
+#contact {
+  background-color: sienna;
+}
+header {
+  background-color:;
+  position:absolute;
+  top:0;
+  width:100%;
+
+  padding:1rem 2rem;
+
+}
+header h1 {
+
+}
+header #gnb {
+  display:none;
+  background-color:cornsilk
+}
+header #gnb ul {
+  width:100%;
+  height:100%;
+  position:absolute;
+  padding:10%;
+  top:0;
+  left:0;
+  background:rgb(255,255,255,.5);
+  box-sizing: border-box;
+}
+header #gnb ul li {
+  height:10%;
+  background:seagreen
+}
+header #gnb #close-gnb {
+  position:Absolute;
+  top:20px;
+  right:20px;
+  z-index: 55;
+}
+header  #btn-gnb {
+  cursor:pointer;
+  background-color:gold;
+  z-index:999;
+  position:absolute;
+  top:1rem;
+  right:2rem;
+}
+footer {
+
+}
