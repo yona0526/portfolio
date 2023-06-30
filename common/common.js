@@ -14,7 +14,11 @@ $(document).ready(function () {					//문서 세팅 되면
 
 $(document).ready(function() {
   $('#btn-gnb').click(function(){
-    $('#gnb').slideToggle(320);
+    $('#gnb').slideToggle(120);
   });
+  
+ // $("#btn-gnb").click(function(){
+   // $(this).
+  //});
 
 });
