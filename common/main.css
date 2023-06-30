@@ -31,7 +31,13 @@ header h1 {
 }
 header #gnb {
   display:none;
-  background-color:cornsilk
+  background-color:cornsilk;
+  position: absolute;
+  width:100%;
+  height:100%;
+  top:0;
+  left:0;
+  box-sizing: border-box;
 }
 header #gnb ul {
   width:100%;
