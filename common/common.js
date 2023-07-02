@@ -12,13 +12,19 @@ $(document).ready(function () {					//문서 세팅 되면
   $(window).resize(setMapSize);				//윈도우창 사이즈 변하면 함수 재실행
 });
 
-$(document).ready(function() {
-  $('#btn-gnb').click(function(){
-    $('#gnb').slideToggle(120);
-  });
+// $(document).ready(function() {
+//   $('#btn-gnb').click(function(){
+//     $('#gnb').slideToggle(120);
+//   });
   
- // $("#btn-gnb").click(function(){
-   // $(this).
-  //});
 
-});
+
+// });
+
+(function($) {
+  $(function () {
+    $('#btn-gnb').on('click', function() {
+      $('body').toggleClass('open');
+    });
+  });
+})(jQuery);
