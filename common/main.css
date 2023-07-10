@@ -328,18 +328,7 @@ footer {}
 
 
 
-@media (max-width: 1023px) {
-  .gallery-item {
-    flex-basis: 33.333%
-  }
-}
 
-@media (max-width: 480px) {
-  .gallery-item {
-    flex-basis: 50%;
-    height: 27vw
-  }
-}
 
 #aboutme {
   padding: 5% 10%
@@ -495,3 +484,12 @@ footer {}
   color:#fff
 }
 .websites li .fa-solid {font-size:12px; margin-left:4px}
+
+footer {
+  width:100%;
+  background-color: #004fa6;
+  color:#fff;
+  font-size:15px;
+  text-align: center;
+  padding:5%
+}

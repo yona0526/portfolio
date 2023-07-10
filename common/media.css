@@ -1,0 +1,48 @@
+@media (max-width: 1023px) {
+    .gallery-item {
+        flex-basis: 33.333%
+    }
+}
+
+@media (max-width: 520px) {
+    header #gnb ul {justify-content: center;}
+    #intro {padding:30% 10%}
+    .gallery-item {
+        flex-basis: 50%;
+        height: 27vw;
+    }
+
+    .websites {
+        padding: 40% 10%
+    }
+
+    #aboutme {
+        padding: 10%
+    }
+    #aboutme h3 {margin-bottom:5%}
+
+    .websites li {
+        width: 100%
+    }
+
+    .introduce {
+        flex-direction: column;
+        padding-bottom: 9%;
+    }
+
+    .profile-photo {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+
+    .introduce-txt {
+        width: 100%
+    }
+    .career {
+        padding:9% 0
+    }
+    .career li {width:100%}
+    .career-box {padding:6%}
+    .skills li img {width:85%}
+}
