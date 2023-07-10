@@ -5,7 +5,10 @@ section {
 
 #intro {
   background-image: url("../img/bg.jpg");
-  background-size: cover;
+  /* background-size: cover; */
+ 
+
+  background-size: calc(100% + 50px);
 }
 
 #aboutme {
@@ -348,6 +351,7 @@ footer {}
 
 .profile-photo {
   width: 30%;
+  text-align: center;
 }
 
 .profile-photo img {
@@ -416,11 +420,14 @@ footer {}
   width: fit-content;
   background: #f9f6f6;
   border-radius: 20px;
+  margin:0 auto
 }
 
 .skills ul {
   display: flex;
   justify-content: space-around;
+  width:60%;
+  margin:0 auto
 }
 
 .websites {
@@ -433,6 +440,7 @@ footer {}
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: stretch;
+  width:100%;
 }
 
 .websites li {
