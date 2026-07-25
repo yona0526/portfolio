@@ -16,6 +16,7 @@ section {
 }
 
 #portfolio-web {
+  padding:3% auto;
   background: rgb(157, 212, 255);
   background: linear-gradient(152deg, rgba(157, 212, 255, 1) 0%, rgba(222, 243, 255, 1) 37%, rgba(146, 227, 255, 1) 65%, rgba(177, 224, 255, 1) 100%);
 }
@@ -428,6 +429,13 @@ footer {}
   justify-content: space-around;
   width:60%;
   margin:0 auto
+}
+
+.skills h3 {
+  font-size: 23px;
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 700;
 }
 
 .websites {
