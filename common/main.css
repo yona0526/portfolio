@@ -346,13 +346,14 @@ footer {}
 }
 
 .introduce-txt {
-  width: 70%;
+  width: 75%;
+  padding-left:10px;
   line-height: 30px;
   font-size: 18px
 }
 
 .profile-photo {
-  width: 30%;
+  width: 25%;
   text-align: center;
 }
 
@@ -374,7 +375,7 @@ footer {}
 }
 
 .introduce {
-  padding-bottom: 4%;
+  padding: 42% 2% 4%;
   border-bottom: 1px solid #454545
 }
 
