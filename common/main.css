@@ -426,6 +426,10 @@ footer {}
   margin:20px auto
 }
 
+#career-tfs li, #career-bbck li {
+  width:100%
+}
+
 .skills ul {
   display: flex;
   justify-content: space-around;
