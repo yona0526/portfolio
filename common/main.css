@@ -13,6 +13,7 @@ section {
 
 #aboutme {
   background-color: #fff;
+  height:fit-content;
 }
 
 #portfolio-web {
@@ -335,7 +336,7 @@ footer {}
 
 
 #aboutme {
-  padding: 5% 10%
+  padding: 5% 7%
 }
 
 .introduce {
