@@ -16,7 +16,7 @@ section {
 }
 
 #portfolio-web {
-  padding:3% auto;
+  padding:3% 0;
   background: rgb(157, 212, 255);
   background: linear-gradient(152deg, rgba(157, 212, 255, 1) 0%, rgba(222, 243, 255, 1) 37%, rgba(146, 227, 255, 1) 65%, rgba(177, 224, 255, 1) 100%);
 }
@@ -24,7 +24,7 @@ section {
 #portfolio-image {
   /* background-color: peru; */
 }
-
+ 
 #contact {
   background-color: sienna;
 }
@@ -439,7 +439,7 @@ footer {}
 }
 
 .websites {
-  padding: 10%;
+  padding: 5%;
   display: flex;
 }
 
