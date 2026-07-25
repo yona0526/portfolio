@@ -425,6 +425,13 @@ footer {}
   margin:20px auto
 }
 
+.career-role {
+  font-size: 18px;
+  font-weight: 400;
+  color: #4a4a4a;
+  padding-left: 7px;
+
+}
 #career-tfs, #career-bbck {
   width:unset;
 }

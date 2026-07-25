@@ -7,13 +7,16 @@
 @media (max-width: 520px) {
     header #gnb ul {justify-content: center;}
     #intro {padding:30% 10%}
+
+    #main_Wrap h2 {font-size:50px}
+
     .gallery-item {
         flex-basis: 50%;
         height: 27vw;
     }
 
     .websites {
-        padding: 40% 10%
+        padding: 10%
     }
 
     #aboutme {
@@ -35,6 +38,8 @@
         text-align: center;
         margin-bottom: 5%;
     }
+
+    #portfolio-web {padding:13%}
 
     .introduce-txt {
         width: 100%
