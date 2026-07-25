@@ -375,7 +375,7 @@ footer {}
 }
 
 .introduce {
-  padding: 42% 2% 4%;
+  padding: 2% 2% 4%;
   border-bottom: 1px solid #454545
 }
 
@@ -391,7 +391,7 @@ footer {}
   font-weight: 600;
 }
 
-.career-name span {
+.career-name .career-date {
   font-size: 16px;
   font-weight: 400;
   color: #696969;
@@ -424,6 +424,10 @@ footer {}
   background: #f9f6f6;
   border-radius: 20px;
   margin:20px auto
+}
+
+#career-tfs, #career-bbck {
+  width:unset;
 }
 
 #career-tfs li, #career-bbck li {
