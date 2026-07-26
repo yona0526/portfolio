@@ -14,11 +14,17 @@
         flex-basis: 50%;
         height: 27vw;
     }
-
-    .websites {
-        padding: 10%
+    .skills ul {
+        width:100%;
     }
 
+    .websites {
+        padding: 10% 0;
+    }
+
+    .websites li .outlink {
+        margin:2px;
+    }
     #aboutme {
         padding: 10%
     }
@@ -39,7 +45,7 @@
         margin-bottom: 5%;
     }
 
-    #portfolio-web {padding:13%}
+    #portfolio-web {padding:13% 7%;}
 
     .introduce-txt {
         width: 100%
