@@ -1,4 +1,6 @@
 /*! minireset.css v0.0.2 | MIT License | github.com/jgthms/minireset.css */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR&display=swap');
+
 html,
 body,
 p,
@@ -85,3 +87,6 @@ th {
   text-align: left;
 }
 a {text-decoration: none; color:#444;}
+div, li, a, span {
+  font-family: "IBM Plex Sans KR", sans-serif;
+}
