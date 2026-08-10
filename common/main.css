@@ -518,12 +518,12 @@ footer {}
 .websites li .fa-solid {font-size:12px; margin-left:4px}
 
 .contact-box {height:88%; padding:2% 4.5%}
-.contact-box h6 {font-size:14vw;
+.contact-box h6 {font-size:10vw;
 text-align: center;
 padding-top:7%;}
 footer {
   width:100%;
-  background-color: #004fa6;
+  background-color: #27415d;
   color:#fff;
   font-size:15px;
   text-align: center;
@@ -536,8 +536,8 @@ footer {
   align-items: centerdus;
 }
 .contact-box .contact-table {
-  margin-top:13%;
-  font-size:2.5vw;
+  margin-top:30px;
+  font-size:2.3vw;
   display: flex;
   align-content: center;
   justify-content: center;
