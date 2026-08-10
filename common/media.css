@@ -2,6 +2,24 @@
     .gallery-item {
         flex-basis: 33.333%
     }
+    #aboutme {
+        height:100%
+    }
+    .career li {
+        width:100%
+    }
+    section {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        align-items: center;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .skills ul {width:70%}
+    .skills ul li {
+        padding : 0 5px;
+    }
 }
 
 @media (max-width: 520px) {
