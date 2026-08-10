@@ -517,11 +517,12 @@ footer {}
 }
 .websites li .fa-solid {font-size:12px; margin-left:4px}
 
+.contact-box {height:88%}
 footer {
   width:100%;
   background-color: #004fa6;
   color:#fff;
   font-size:15px;
   text-align: center;
-  padding:5%
+  height:12%
 }
