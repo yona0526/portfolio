@@ -524,5 +524,11 @@ footer {
   color:#fff;
   font-size:15px;
   text-align: center;
-  height:12%
+  height:12%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: centerdus;
 }
